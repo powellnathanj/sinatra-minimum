@@ -1,0 +1,2 @@
+#!/bin/sh
+thin start -R config.ru
