@@ -4,6 +4,8 @@ set :logging, :true
 set :views, 'views'
 set :public, 'static'
 
+enable :sessions
+
 # This put ./lib in your path
 $: << File.join(File.dirname(__FILE__), 'lib')
 require 'app/util'
